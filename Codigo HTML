@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Agenda</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <!-- Menú lateral -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>📅 Mi Agenda</h2>
+            <p>Estudiante</p>
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#"><i class="fa-solid fa-house"></i> Inicio</a></li>
+
+                <li><a href="#"><i class="fa-solid fa-list-check"></i> Tareas</a></li>
+
+                <li><a href="#"><i class="fa-solid fa-calendar"></i> Calendario</a></li>
+
+                <li><a href="#"><i class="fa-solid fa-book"></i> Asignaturas</a></li>
+
+                <li><a href="#"><i class="fa-solid fa-folder"></i> Proyectos</a></li>
+
+                <li><a href="#"><i class="fa-solid fa-bell"></i> Recordatorios</a></li>
+
+                <li><a href="#"><i class="fa-solid fa-note-sticky"></i> Notas</a></li>
+
+                <li><a href="#"><i class="fa-solid fa-chart-column"></i> Estadísticas</a></li>
+
+                <li><a href="#"><i class="fa-solid fa-gear"></i> Ajustes</a></li>
+
+            </ul>
+
+        </nav>
+
+    </aside>
+
+    <!-- Contenido principal -->
+
+    <main>
+
+        <header>
+
+            <div>
+
+                <h1>¡Bienvenido!</h1>
+
+                <p>Organiza tu día y cumple tus metas.</p>
+
+            </div>
+
+            <button>Nueva tarea</button>
+
+        </header>
+
+        <!-- Tarjetas -->
+
+        <section class="cards">
+
+            <div class="card">
+
+                <h2>8</h2>
+
+                <p>Tareas pendientes</p>
+
+            </div>
+
+            <div class="card">
+
+                <h2>5</h2>
+
+                <p>Tareas para hoy</p>
+
+            </div>
+
+            <div class="card">
+
+                <h2>12</h2>
+
+                <p>Tareas completadas</p>
+
+            </div>
+
+            <div class="card">
+
+                <h2>4</h2>
+
+                <p>Asignaturas activas</p>
+
+            </div>
+
+        </section>
+
+        <!-- Lista de tareas -->
+
+        <section class="tareas">
+
+            <h2>Tareas de hoy</h2>
+
+            <table>
+
+                <tr>
+
+                    <th>Materia</th>
+
+                    <th>Actividad</th>
+
+                    <th>Hora</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>Matemáticas</td>
+
+                    <td>Resolver ejercicios</td>
+
+                    <td>9:00 AM</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Historia</td>
+
+                    <td>Leer capítulo 3</td>
+
+                    <td>11:00 AM</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Química</td>
+
+                    <td>Practicar tabla periódica</td>
+
+                    <td>1:00 PM</td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+        <!-- Próximos eventos -->
+
+        <section class="eventos">
+
+            <h2>Próximos eventos</h2>
+
+            <ul>
+
+                <li>📌 Examen de Matemáticas - 15 Mayo</li>
+
+                <li>📌 Entrega Proyecto Historia - 17 Mayo</li>
+
+                <li>📌 Examen de Química - 20 Mayo</li>
+
+            </ul>
+
+        </section>
+
+        <!-- Materias -->
+
+        <section class="materias">
+
+            <h2>Mis asignaturas</h2>
+
+            <div class="lista-materias">
+
+                <div class="materia">
+                    Matemáticas
+                </div>
+
+                <div class="materia">
+                    Historia
+                </div>
+
+                <div class="materia">
+                    Química
+                </div>
+
+                <div class="materia">
+                    Inglés
+                </div>
+
+                <div class="materia">
+                    Física
+                </div>
+
+                <div class="materia">
+                    Literatura
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
